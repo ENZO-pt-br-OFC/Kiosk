@@ -175,6 +175,8 @@ import androidx.compose.ui.tooling.preview.PreviewParameter
    COROUTINES
    ========================= */
 import kotlinx.coroutines.launch
+///////////////////
+import kiosk.mdm.view.java
 /* ************ */
 @Composable
 fun KioskAppsGrid() {
