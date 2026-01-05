@@ -238,3 +238,9 @@ fun AppItem(
         )
     }
 }
+fun gerarSenhaAleatoria(): String {
+    val chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+    return (1..12)
+        .map { chars.random() }
+        .joinToString("")
+}
