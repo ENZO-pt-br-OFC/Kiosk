@@ -1,0 +1,13 @@
+<device-admin>
+    <uses-policies>
+        <limit-password />
+        
+        <force-lock />
+        
+        <wipe-data />
+        
+        <disable-camera />
+        
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>
